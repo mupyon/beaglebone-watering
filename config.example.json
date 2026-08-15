@@ -1,0 +1,43 @@
+{
+  "latitude": 35.6812,
+  "longitude": 139.7671,
+  "timezone": "Asia/Tokyo",
+  "gpio_root": "/sys/class/gpio",
+  "active_high": true,
+  "allow_simultaneous": false,
+  "forecast_hours": 12,
+  "skip_rain_mm": 1.0,
+  "skip_probability_percent": 60,
+  "lines": {
+    "line1": {
+      "label": "花壇ライン",
+      "gpio": 48,
+      "water_balance": 0.0,
+      "watering_threshold": -5.0,
+      "et0_crop_factor": 1.0,
+      "rain_efficiency": 0.8,
+      "default_watering_seconds": 300,
+      "watering_calibration": 0.0167
+    },
+    "line2": {
+      "label": "植木ライン",
+      "gpio": 49,
+      "water_balance": 0.0,
+      "watering_threshold": -5.0,
+      "et0_crop_factor": 0.8,
+      "rain_efficiency": 0.8,
+      "default_watering_seconds": 240,
+      "watering_calibration": 0.0167
+    },
+    "line3": {
+      "label": "スプリンクラー",
+      "gpio": 115,
+      "water_balance": 0.0,
+      "watering_threshold": -5.0,
+      "et0_crop_factor": 1.2,
+      "rain_efficiency": 0.7,
+      "default_watering_seconds": 360,
+      "watering_calibration": 0.0167
+    }
+  }
+}

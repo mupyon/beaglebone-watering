@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+state.json
+watering.log
+watering-*.pid
+config.json
